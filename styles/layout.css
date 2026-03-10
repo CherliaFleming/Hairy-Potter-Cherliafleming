@@ -1,0 +1,15 @@
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.fish, 
+.locations {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem;
+}
+.fish.card,
+.location.card {
+    flex: 1 1 150px;
+}

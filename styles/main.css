@@ -1,0 +1,11 @@
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.left-column {
+    flex: 3;
+}
+.tips {
+    flex: 1
+}
