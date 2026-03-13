@@ -1,16 +1,60 @@
-<<<<<<< HEAD
+
 .left-column {
     display: flex;
     flex-direction: column;
+    flex: 3;
     gap: 1rem;
 }
-.fish, 
-.locations {
+
+
+#fishList {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
 }
-.fish.card,
-.location.card {
-    flex: 1 1 150px;
+
+.fish-card {
+    flex: 1 1 calc(50% - 0.5rem);
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+#locationList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.location {
+    flex: 1 1 calc(50% - 0.5rem);
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* ── TIPS COLUMN ── */
+#tipList {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.tips {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.tip {
+    margin-bottom: 0.5rem;
 }
