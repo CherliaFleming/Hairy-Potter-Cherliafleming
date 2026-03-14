@@ -2,47 +2,59 @@
 .left-column {
     display: flex;
     flex-direction: column;
-    flex: 3;
+    flex: 4;
     gap: 1rem;
 }
 
 
 #fishList {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 1rem;
+}
+
+.fish {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .fish-card {
-    flex: 1 1 calc(50% - 0.5rem);
+    flex: 0 0 calc(50% - 0.5rem); 
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 8px;
     text-align: center;
+    box-sizing: border-box;
 }
 
-
 #locationList {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.locations {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 1rem;
+    padding: 0;
+    margin: 0;
 }
 
 .location {
-    flex: 1 1 calc(50% - 0.5rem);
+    flex: 0 0 calc(50% - 0.5rem);  
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 8px;
     text-align: center;
+    box-sizing: border-box;
 }
 
-/* ── TIPS COLUMN ── */
+
 #tipList {
     flex: 1;
     border: 1px solid #ccc;
