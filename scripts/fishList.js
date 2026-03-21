@@ -15,9 +15,9 @@ export const fishList = () => {
         const name = document.createElement('p');
         name.textContent = fish.name;
 
-        li.appendChild(img);    // ← add image to card
-        li.appendChild(name);   // ← add name to card
-        ul.appendChild(li);     // ← add card to list
+        li.appendChild(img);    
+        li.appendChild(name);   
+        ul.appendChild(li);    
     });
 
     return ul;
