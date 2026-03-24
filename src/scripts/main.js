@@ -1,7 +1,10 @@
 // Imports go first
 import { makePottery } from './PotteryWheel.js'
 
+
 let piece = makePottery
+
+
 // Make 5 pieces of pottery at the wheel
 let mug = makePottery()
 
