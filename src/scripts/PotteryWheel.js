@@ -15,6 +15,6 @@ export const makePottery = (pottery) => {
         shape: pottery.shape,
         weight: pottery.weight,
         height: pottery.height, 
-)
+
     }
 }

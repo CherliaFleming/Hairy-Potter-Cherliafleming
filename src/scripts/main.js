@@ -1,18 +1,18 @@
 // Imports go first
 import { makePottery } from './PotteryWheel.js'
+import { firePottery } from './kiln.js'
 
 
-let piece = makePottery
 
 
 // Make 5 pieces of pottery at the wheel
-let mug = makePottery()
+const piece = makePottery()
 
-console.log(makePottery(database.pottery[0]))
+console.log(makePottery(database.pottery.[0]))
 
 
 // Fire each piece of pottery in the kiln
-
+console.log(firedPottery(database.poettery[0],2300))
 
 // Determine which ones should be sold, and their price
 
