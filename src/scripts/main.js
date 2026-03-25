@@ -12,7 +12,7 @@ console.log(makePottery(database.pottery.[0]))
 
 
 // Fire each piece of pottery in the kiln
-console.log(firedPottery(database.poettery[0],2300))
+console.log(firePottery(database.pottery[0],2300))
 
 // Determine which ones should be sold, and their price
 
