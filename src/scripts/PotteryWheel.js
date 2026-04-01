@@ -1,4 +1,4 @@
-const database = {
+export const database = {
     pottery: [ 
         { id: 1, shape: "mug", weight: 3, height: 2 },
         { id: 2, shape: "dinner plate", weight: 5 , height: 1 },

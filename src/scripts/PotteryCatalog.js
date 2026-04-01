@@ -3,7 +3,7 @@ const catalog = []
 export const toSellOrNotToSell = (pottery) => {
 
     if (pottery.cracked) {
-        return 
+        pottery.price = 2.50 
     }
     if (pottery.weight >=6) {
         pottery.price = 40 
